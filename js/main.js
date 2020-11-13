@@ -6,7 +6,7 @@ $(document).ready (
 
 
   function() {
-    
+
     // SCHERMATA CARICAMENTO
 
     $('body').append('<div style="" id="loadingDiv"><div class="loader">Loading...</div></div>');
@@ -25,10 +25,18 @@ $(document).ready (
 
     // burger menu DA IMPLEMENTARE
     $(".ms_bars").click(function() {
-      alert("click");
+
+      $('.burger').addClass('visibile');
+
+
     });
 
+    $(".fa-times").click(function() {
 
+
+      $('.burger').removeClass('visibile');
+
+    });
 
 
     // DROPDOWN EFFETTI

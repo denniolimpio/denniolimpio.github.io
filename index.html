@@ -26,10 +26,8 @@
 <body>
 
   <div id="loading">
-
-  <img id="loading-image" src="img/ajax-loader.gif" alt="Loading..." />
-
-</div>
+    <img id="loading-image" src="img/ajax-loader.gif" alt="Loading..." />
+  </div>
 
   <div class="wrap">
     <!-- header -->
@@ -61,239 +59,184 @@
                 <li class="list-inline-item" >
                   <a href="#"> <i class="fab fa-instagram"></i></a>
                 </li>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- nav bottom-->
+      <nav class="ms_sub-nav">
+
+        <div class="container">
+          <!-- inizio riga -->
+          <div class="row">
+            <!-- colonna logo sinistra -->
+            <div class="col-lg-4 col-md-6">
+              <div class=" logo">
+                <a href="#">
+                  <img src="img/lettering.png" alt="logo">
+                </a>
+              </div>
+            </div>
+
+            <!-- burger menu visibile solo da md -->
+            <div class="ms_nav d-lg-none col-md-6">
+              <i class="fas fa-bars ms_bars  ms_burger"></i>
+            </div>
+
+            <!-- colonna menu destra -->
+            <div class=" col d-lg-block d-none ms_nav" >
+              <!-- ul inizio -->
+              <ul class="list-inline list-inline-item ms_list">
+                <li class="with-dropdown list-inline-item ">
+                  <a href="#"> Benvenuto</a>
+                  <!-- dropdown Conti -->
+                  <ul class="dropdown">
+                    <li><a href="#videoback">Chi siamo</a></li>
+                    <li><a href="#"> us</a></li>
+                  </ul>
+                </li>
+
+                <li class="with-dropdown list-inline-item">
+                  <a href="#"> Pizzeria</a>
+                  <!-- dropdown Conti -->
+                  <ul class="dropdown">
+                    <li><a href="#slider"> Galleria</a></li>
+                  </ul>
+                </li>
+
+                <li class="with-dropdown list-inline-item">
+                  <a href="#">Contatti</a>
+                  <ul class="dropdown">
+                    <li><a href="#">Numeri </a></li>
+                    <li><a href="#"> info</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <!-- ul fine -->
 
               </div>
+              <!-- fine riga -->
             </div>
           </div>
         </nav>
-        <!-- nav bottom-->
-        <nav class="ms_sub-nav">
+      </header>
+      <!-- fine header -->
 
-          <div class="container">
-            <!-- inizio riga -->
+      <main>
+        <section id="welcome"  class="section primary d-none d-lg-block">
+          <div class="container-fluid">
             <div class="row">
-              <!-- colonna logo -->
-              <div class="col-lg-4 col-md-6">
-                <div class=" logo">
-                  <a href="#">
-                    <img src="img/lettering.png" alt="logo">
-                  </a>
+              <div class="col-xl-8 col-lg-6">
+                <div class="bg_pizza">
+                  <img src="img/margherita2.jpg" alt="rita">
                 </div>
               </div>
-
-              <!-- colonna menu destro -->
-              <div class=" col d-lg-block d-none ms_nav" >
-                <ul class="list-inline list-inline-item ms_list">
-
-                  <li class="with-dropdown list-inline-item ">
-                    <a href="#"> Benvenuto</a>
-                    <!-- dropdown Conti -->
-                    <ul class="dropdown">
-                      <li>
-                        <a href="#videoback">Chi siamo</a>
-                      </li>
-
-                      <li>
-                        <a href="#"> us</a>
-                      </li>
-
-                    </ul>
-                  </li>
-
-
-                  <li class="with-dropdown list-inline-item">
-                    <a href="#"> Pizzeria</a>
-                    <!-- dropdown Conti -->
-                  <ul class="dropdown">
-                    <li>
-                    <a href="#slider"> Galleria</a>
-                  </li>
-
-
-
-              </ul>
-            </li>
-
-            <li class="with-dropdown list-inline-item">
-              <a href="#">Contatti</a>
-              <ul class="dropdown">
-                <li>
-                  <a href="#">Numeri </a>
-                </li>
-                <li>
-                  <a href="#"> info</a>
-                </li>
-
-
-
-              </ul>
-            </li>
-
-
-          </ul>
-        </div>
-
-        <!-- burger menu visibile solo da md -->
-        <div class="ms_nav d-lg-none col-md-6">
-          <i class="fas fa-bars ms_bars  ms_burger"></i>
-          <!-- <div class="container-fluid burger"> -->
-            <!-- <div class="row">
-              <ul>
-                <li>1</li>
-                <li>1</li>
-                <li>1</li>
-                <li>1</li>
-
-              </ul>
-            </div> -->
-
-
-          </div>
-        </div>
-        <!-- fine riga -->
-      </div>
-    </div>
-  </nav>
-</header>
-<!-- fine header -->
-
-<main>
-  <section id="welcome"  class="section primary d-none d-lg-block">
-
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-xl-8 col-lg-6">
-          <div class="bg_pizza">
-            <img src="img/margherita2.jpg" alt="">
-          </div>
-        </div>
-        <div class="col-xl-4 col-lg-6 col-sm-12">
-          <div class="card">
-            <div class="title">
-              <h4>
-                <span> Benvenuto</span>
-              </h4>
-
-            </div>
-            <img src="img/lettering2.png" alt="">
-
-          </div>
-
-        </div>
-
-      </div>
-
-    </div>
-
-  </section>
-
-  <!-- SEZIONE 2 Benvenuto - logo lettering -->
-  <section id="videoback" class="section">
-        <!-- background video INIZIO -->
-        <div class="overlay"></div>
-        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-          <source src="img/pizza2.mp4" type="video/mp4">
-          </video>
-          <div class="container h-100">
-            <div class="d-flex h-100 text-center align-items-center">
-              <div class="w-100 text-white">
-                <p class="lead mb-0">
-                  "Il Pizzicotto è una pizzeria e trattoria a conduzione familiare situata nel cuore
-                  dei Quartieri Spagnoli.Un ambiente familiare dove poter
-                  gustare la pizza tradizionale napoletana. Disponibile sala interna e consegna a domicilio"
-                </p>
+              <div class="col-xl-4 col-lg-6 col-sm-12">
+                <div class="card">
+                  <div class="title">
+                    <h4><span> Benvenuto</span> </h4>
+                  </div>
+                  <img src="img/lett2.png" alt="logo">
+                </div>
               </div>
             </div>
-          </div>
-            <!-- background video fine -->
-        </section>
-
-        <section id="presentation" class="section secondary">
-          <div class="container">
-            <div class="row">
-
-
-            </div>
-
-          </div>
-
-        </section>
-
-        <!-- SEZIONE 3 Benvenuto - logo lettering -->
-        <section id="slider"class="section primary">
-          <div class="container">
-
-            <div class="title">
-              <h4> GALLERIA</h4>
-            </div>
-            <div class="slider-wrapper">
-              <div class="prev">
-                <i class="fas fa-angle-left"></i>
-              </div>
-              <div class="images ">
-                <img class="active first" src="img/foto1.jpg" alt="">
-                <img  src="img/foto2.jpg"  alt="">
-                <img  src="img/pizzamargherita.jpg "alt="">
-                <img class="last" src="img/rita2.jpg" alt="">
-              </div>
-              <div class="next">
-                <i class="fas fa-angle-right"></i>
-              </div>
-              <div class="nav">
-                <i class="fas fa-circle active first"></i>
-                <i class="fas fa-circle"></i>
-                <i class="fas fa-circle"></i>
-                <i class="fas fa-circle last"></i>
-              </div>
-            </div>
-
           </div>
         </section>
 
-    </main>
-
-    <footer class="section primary">
-      <div class="container-fluid">
-        <div class="row">
+        <!-- SEZIONE 2 Benvenuto - logo lettering -->
+        <section id="videoback" class="section videoback">
           <div class="title">
-          <h4>SEGUICI SUI NOSTRI SOCIAL</h4>
-          </div>
-          <div class="col-12">
 
-            <h3> pizzicotto_quartieri</h3>
-
+            <h3>test</h3>
 
           </div>
+          <!-- background video INIZIO -->
+          <div class="overlay"></div>
+          <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+            <source src="img/pizza2.mp4" type="video/mp4">
+            </video>
+            <div class="container h-100">
+              <div class="d-flex h-100 text-center align-items-center">
+                <div class="w-100 text-white">
+                  <p class="lead mb-0">
+                    "Il Pizzicotto &eacute; una pizzeria e trattoria a conduzione familiare situata nel cuore
+                    dei Quartieri Spagnoli. Un ambiente familiare dove poter
+                    gustare la pizza tradizionale napoletana. Disponibile sala interna e consegna a domicilio"
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- background video fine -->
+          </section>
+
+          <section id="presentation" class="section secondary">
+            <div class="container">
+              <div class="row">
+                <div class="title">
+                  <h4>test</h4>
+                </div>
+               </div>
+            </div>
+          </section>
+
+          <!-- SEZIONE 3 Benvenuto - logo lettering -->
+          <section id="slider" class="section primary">
+            <div class="container">
+              <div class="title">
+                <h4> GALLERIA</h4>
+              </div>
+              <div class="slider-wrapper">
+                <div class="prev">
+                  <i class="fas fa-angle-left"></i>
+                </div>
+                <div class="images ">
+                  <img class="active first" src="img/foto1.jpg" alt="1">
+                  <img  src="img/foto2.jpg"  alt="2">
+                  <img  src="img/pizzamargherita.jpg " alt="3">
+                  <img class="last" src="img/rita2.jpg" alt="4">
+                </div>
+                <div class="next">
+                  <i class="fas fa-angle-right"></i>
+                </div>
+                <div class="nav">
+                  <i class="fas fa-circle active first"></i>
+                  <i class="fas fa-circle"></i>
+                  <i class="fas fa-circle"></i>
+                  <i class="fas fa-circle last"></i>
+                </div>
+              </div>
+            </div>
+          </section>
+        </main>
+
+        <footer class="section primary">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="title">
+                <h4>SEGUICI SUI NOSTRI SOCIAL</h4>
+              </div>
+              <div class="col-12">
+                <h3> pizzicotto_quartieri</h3>
+              </div>
+            </div>
+            <div class="row secondary">
+              <div class="col-8"> test testtest testtest testtest test</div>
+              <div class="col-4">test testtest testtest testvv  </div>
+            </div>
+          </div>
+        </footer>
+
+        <!-- popup menu visibile -->
+        <div  class="fixed-mono">
+          <img id="mono" src="img/monogramma2.png" alt="monogramma">
+          <span>menu</span>
         </div>
-        <div class="row secondary">
-          <div class="col-8">
-test testtest testtest testtest test
-          </div>
-          <div class="col-4">
-test testtest testtest testvv
-          </div>
-
-        </div>
-
-      </div>
-    </footer>
-
-
-
-
-    <!-- popup menu visibile -->
-    <div  class="fixed-mono">
-      <img id="mono" src="img/monogramma2.png" alt="">
-      <span>menu</span>
-
     </div>
 
+    <script src="js/main.js"></script>
 
-</div>
-</div>
+  </body>
 
-<script src="js/main.js"></script>
-
-</body>
-
-</html>
+  </html>

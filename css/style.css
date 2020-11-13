@@ -1,123 +1,72 @@
+* {
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+/* fine reset */
 
+/*  generali */
 
-
-.loader,
-        .loader:after {
-            border-radius: 50%;
-            width: 10em;
-            height: 10em;
-        }
-        .loader {
-            top: 300px;
-            right: 0;
-            margin-top: 500px auto;
-            font-size: 10px;
-            height: 1px;
-            background-color: red;
-            position: relative;
-            text-indent: -9999em;
-            border-top: 1.1em solid rgba(255, 255, 255, 0.2);
-            border-right: 1.1em solid rgba(255, 255, 255, 0.2);
-            border-bottom: 1.1em solid rgba(255, 255, 255, 0.2);
-            border-left: 1.1em solid #ffffff;
-            -webkit-transform: translateZ(0);
-            -ms-transform: translateZ(0);
-            transform: translateZ(0);
-            -webkit-animation: load8 1.1s infinite linear;
-            animation: load8 2 infinite linear;
-        }
-        @-webkit-keyframes load8 {
-            0% {
-              left: 0;
-              width: 30px;
-            }
-            50% {
-              left: 0;
-              width: 70px;
-            }
-
-            75% {
-              left: 0;
-              width: 100px;
-            }
-            100% {
-              left: 0;
-              width: 140px;
-            }
-        }
-        @keyframes load8 {
-          0% {
-            left: 0;
-            width: 30px;
-          }
-          50% {
-            left: 0;
-            width: 70px;
-          }
-
-          75% {
-            left: 0;
-            width: 100px;
-          }
-          100% {
-            left: 0;
-            width: 140px;
-          }
-        }
-        #loadingDiv {
-            position:fixed;
-            top: 0;
-            left:0;
-            width:100%;
-            height: 100%;
-            background-color: black;
-            background-image: url(../img/lett2.png);
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: 250px;
-            z-index: 6;
-        }
-/*
-
-
-
-
-
-
-
-
- */
-
-
-
-
-
-
-
-.bg {
-  height: 100vh;
-  background-color: white;
+h1 {
+  overflow: hidden;
+  text-align: center;
+  font-size: 80px;
+  color: white;
+}
+img {
+  height: 100%;
+  width: auto;
 }
 
-.burger {
-  height: 100vh;
-  width: 100%;
-  background-color: red;
+a {
+  text-decoration: none;
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+  padding: 0 10px;
+  text-transform: uppercase;
 }
 
+h4 {
+  color: #9b2626;
+}
 
+h5, h4 {
+  text-transform: uppercase;
+  text-align: center;
+  padding: 90px 0;
+}
+p {
+  font-family: 'Quicksand', sans-serif;
+  color: #fff ;
+  font-weight: 600;
+  font-size: 22px;
+  padding: 10px 0;
+  text-align: center;
+}
+
+/* layout */
 
 .wrap {
   background-color: black;
 }
 
-.bg_pizza img  {
-  position: absolute;
-  top: -150px;
-  width: 490px;
-  height: auto;
+section {
+  padding: 150px 0;
+  height: 100vh;
 }
 
+.primary {
+  background-color: black;
+}
+.secondary {
+  background-color: #9b2626; /* sfondo rosso*/
+}
+
+.col {
+  padding: 0;
+}
+
+/* classi generali */
 
 .secondary .card h4{
   color: black;
@@ -145,21 +94,14 @@
   color: white;
 }
 
-#welcome .card img {
-  height: 100px;
+.secondary .card h4{
+  color: black;
+
 }
 
-h4 {
-  color: #9b2626;
-}
+.secondary .card {
+  background-color: #9b2626;
 
-img {
-  height: 100%;
-}
-
-h1 {
-  overflow: hidden;
-  text-align: center;
 }
 
 .secondary h4:before,
@@ -168,7 +110,7 @@ h1 {
 
 }
 
- h4:before,
+h4:before,
 h4:after {
   background-color: #9b2626;
   content: "";
@@ -190,144 +132,10 @@ h4:after {
   margin-right: -50%;
 }
 
-/* .right_logo {
-padding: 350px 0;
-
-} */
-* {
-  padding: 0;
-  margin: 0 auto;
-  box-sizing: border-box;
-}
-/* fine reset */
-
-/*  generali */
-
-h1 {
-  font-size: 80px;
-  color: white;
-}
-img {
-  height: 100%;
-  width: auto;
-}
-
-a {
-  text-decoration: none;
-  font-family: 'Quicksand', sans-serif;
-  color: white;
-  padding: 0 10px;
-  text-transform: uppercase;
 
 
-}
-
-
-
-.dropdown a {
-  text-decoration: none;
-  font-size: 14px;
-}
-
-.dropdown li a:hover {
-  text-align: center;
-  background-color: white;
-}
-
-.dropdown li:hover a {
-  color: black;
-}
-.ms_list li:hover a:before {
-  background-color: #9b2626;
-  content: "";
-  display: inline-block;
-  height: 4px;
-  border-radius: 10px;
-  position: absolute;
-  top: 3px;
-  vertical-align: middle;
-  animation: animate 6s linear infinite;
-}
-@keyframes animate {
-       0% {
-           left: 10px;
-           width: 5px;
-       }
-
-       25% {
-           left: 10px;
-           width:60px;
-
-       }
-
-
-       50% {
-           left: 10px;
-           width:70px;
-
-       }
-
-
-
-   }
-h5, h4 {
-  text-transform: uppercase;
-  text-align: center;
-  padding: 90px 0;
-}
-p {
-  font-family: 'Quicksand', sans-serif;
-  color: #fff ;
-  font-weight: 600;
-  font-size: 22px;
-  padding: 10px 0;
-  text-align: center;
-}
-/*  hover */
-a:hover {
-  color: #9b2626;
-  text-decoration: none;
-
-}
-
-.dropdown li:hover  {
-  background-color: white;
-}
-/* layout */
-.col {
-  padding: 0;
-}
-
-section {
-  padding: 150px 0;
-  height: 100vh;
-}
-/* layout */
-
-/* .section {
-height: auto;
-} */
-
-
-.primary {
-  background-color: black;
-}
-.secondary {
-  background-color: #9b2626; /* sfondo rosso*/
-}
-
-/* classi generali */
-
-
-
-.ms_bars {
-  font-size: 45px;
-  color: white;;
-}
-
-/* bottoni */
+/* BUTTON */
 .btn_redbord h3{
-  border: .5px solid #9b2626;
   border-radius: 16px;
   width: 200px;
   padding: 20px;
@@ -335,7 +143,6 @@ height: auto;
   font-family: 'Quicksand', sans-serif;
   font-size: 15px;
   text-align: center;
-  background-color: #9b2626;
 
 }
 
@@ -348,24 +155,18 @@ height: auto;
   border: .5px solid white;
 
 }
-/* fine bottoni */
+/* FINE BUTTON */
 
 
 /* HEADER */
-
-.logo {
-  height: 150px;
-}
-
 
 .ms_nav {
   line-height: 180px;
   text-align: right;
 }
-/* .ms_nav a {
-border-right: 1px solid  grey;
-
-} */
+.logo {
+  height: 150px;
+}
 /* header top */
 .ms_top-nav {
   background-color: #9c2626;
@@ -400,13 +201,25 @@ border-right: 1px solid  grey;
   float: right;
 }
 
+.bg_pizza img  {
+  position: absolute;
+  top: -150px;
+  width: 490px;
+  height: auto;
+}
 /* FINE HEADER */
 
 
 /* MAIN */
 
-/* SECTION 1 videoback */
-#videoback {
+/* - - - -  - - -  - - SECTION WELCOME */
+.welcome .card img {
+  height: 100px;
+}
+
+
+/* -- - - - - - -  - -  SECTION videoback */
+.videoback {
   position: relative;
   background-color: black;
   height: 100vh;
@@ -415,7 +228,7 @@ border-right: 1px solid  grey;
   overflow: hidden;
 }
 
-video {
+.videoback video {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -425,16 +238,15 @@ video {
   height: auto;
   z-index: 0;
   transform: translateX(-50%) translateY(-50%);
-  filter: grayscale();
-
+  filter: grayscale(2);
 }
 
-#videoback .container {
+.videoback .container {
   position: relative;
   z-index: 1;
 }
 
-#videoback .overlay {
+.videoback .overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -447,7 +259,7 @@ video {
 
 /*  videoback FINE */
 
-/* section SLIDER */
+/* - - - - -  - section SLIDER */
 .slider-wrapper {
   margin: 150px 0;
   position: relative;
@@ -514,36 +326,163 @@ video {
 
 /* fine footer */
 
+
+/* - -  -- - - -  - - -  -  - - - -  - - - - - */
+
+
+/* ANIMATION */
+
+/*  animation dropdown */
+.dropdown li a:hover {
+  text-align: center;
+  background-color: white;
+}
+
+.dropdown li:hover a {
+  color: black;
+}
+.ms_list li:hover a:before {
+  background-color: #9b2626;
+  content: "";
+  display: inline-block;
+  height: 4px;
+  border-radius: 10px;
+  position: absolute;
+  top: 3px;
+  vertical-align: middle;
+  animation: animate 6s linear infinite;
+}
+@keyframes animate {
+  0% {
+    left: 10px;
+    width: 5px;
+  }
+
+  25% {
+    left: 10px;
+    width:60px;
+  }
+
+  50% {
+    left: 10px;
+    width:70px;
+
+  }
+}
+
+/* Inizio Animazione caricamento  */
+.loader,
+.loader:before,
+.loader:after {
+  border-radius: 50%;
+}
+.loader {
+  font-size: 11px;
+  text-indent: -99999em;
+  margin: 500px auto;
+  position: relative;
+  width: 5em;
+  height: 5em;
+  box-shadow: inset 0 0 0 1em;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+}
+.loader:before,
+.loader:after {
+  position: absolute;
+  content: '';
+}
+.loader:before {
+  width: 2.6em;
+  height: 5.1em;
+  background: #9b2626;
+  border-radius: 5.1em 0 0 5.1em;
+  top: -0.1em;
+  left: -0.1em;
+  -webkit-transform-origin: 2.6em 2.6em;
+  transform-origin: 2.6em 2.6em;
+  -webkit-animation: load2 2s infinite ease 1.5s;
+  animation: load2 2s infinite ease 1.5s;
+}
+.loader:after {
+  width: 2.6em;
+  height: 5.1em;
+  background: #9b2626;
+  border-radius: 0 5.1em 5.1em 0;
+  top: -0.1em;
+  left:2.5em;
+  -webkit-transform-origin: 0.1em 2.5em;
+  transform-origin: 0.1em 2.5em;
+  -webkit-animation: load2 2s infinite ease;
+  animation: load2 2s infinite ease;
+}
+@-webkit-keyframes load2 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes load2 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+#loadingDiv {
+  position:fixed;
+  top: 0;
+  left:0;
+  width:100%;
+  height: 100%;
+  background-color: black;
+  background-image: url(../img/lett2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 250px;
+  z-index: 6;
+}
+/* FINE Animazione caricamento  */
+
+
+
 /* Monogramma  */
-.fixed-mono {
-  position: fixed;
-  z-index: 4;
+/* .fixed-mono {
+position: fixed;
+z-index: 4;
 }
 
 .fixed-mono  {
-  height:130px;
-  bottom: 0;
-  right: 55px;
-  border: 2px solid pink;
+height:130px;
+bottom: 0;
+right: 55px;
+border: 2px solid pink;
 
 }
 .fixed-mono span {
-  color: white;
-}
+color: white;
+} */
 
 /* fine monogramma */
 
 
-/* dropdown */
-.toggle_menu {
-  width: 500px;
-  height: 800px;
-  top: 50px;
-}
+/* Dropdown  */
+
 .with-dropdown {
   position: relative;
 }
-
+.dropdown a {
+  text-decoration: none;
+  font-size: 14px;
+}
 .dropdown {
   text-align: left;
   display: none;
@@ -553,54 +492,61 @@ video {
   top: 108px;
   width: auto;
 }
-
 .dropdown li {
   margin-top: 9px ;
   line-height: 30px;
   list-style-type: none;
 }
-.dropdown ul  {
-  list-style-type: none;
-}
-
 .dropdown.active {
   display: block;
 }
 
+/* Drop hover */
+a:hover {
+  color: #9b2626;
+  text-decoration: none;
+
+}
+
+.dropdown li:hover  {
+  background-color: white;
+}
+
+
+
+/*  burger menu */
+.burger {
+  height: 100vh;
+  width: 100%;
+  background-color: red;
+}
+
+.ms_bars {
+  font-size: 45px;
+  color: white;;
+}
 
 /* media query */
 
 /* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) { ... }
+@media (max-width: 575.98px) { }
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 476px) and (max-width: 767.98px) {
-
-  .loader {
-      position: absolute;
-      top: 700px;
-    }
-}
+@media (min-width: 576px) and (max-width: 767.98px) {}
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
 
-  .loader {
-      position: absolute;
-      top:550px;
-
-    }
+  /* generali */
 
   p {
     padding: 130px 0;
   }
 
+
+  /*  slider section */
+
   .slider-wrapper .images img {
     height: 550px;
-  }
-
-  .right_logo {
-    padding: 350px 0;
-
   }
 
 }
@@ -608,18 +554,14 @@ video {
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
 
+  /* generali */
   section {
     padding: 150px 0;
   }
 
-  .loader {
-      position: absolute;
-      top: 400px;
-
-    }
 
 
-
+  /*  slider section */
 
   .slider-wrapper .images img {
     height: 200px;
@@ -630,18 +572,16 @@ video {
 
 
 
-
-
-
-
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
 
-  .bg_pizza img  {
-    width: 600px;
-    top: -60px;
-
+  /* classi generali */
+  .card {
+    margin-top: 90px;
+    right: 150px;
   }
+
+  /* layout */
 
   section {
     padding: 150px 0;
@@ -649,17 +589,23 @@ video {
   .primary {
     padding: 90px 0;
   }
+
+  /* header sub */
+
+  .bg_pizza img  {
+    width: 800px;
+    top: -60px;
+
+  }
+
+
+  /*  slider  */
   .slider-wrapper .images img {
     height: 550px;
   }
-
-  .card {
-    margin-top: 90px;
-    right: 150px;
-  }
-
+  /* animazione caricamento */
   .loader {
-      margin: 50px auto;
+    margin: 550px auto;
 
   }
 }

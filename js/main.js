@@ -6,32 +6,32 @@ $(document).ready (
 
 
   function() {
+    
+    // SCHERMATA CARICAMENTO
 
     $('body').append('<div style="" id="loadingDiv"><div class="loader">Loading...</div></div>');
     $(window).on('load', function(){
-      setTimeout(removeLoader, 2000); //wait for page load PLUS two seconds.
+      setTimeout(removeLoader, 3000); //
     });
     function removeLoader(){
-      $( "#loadingDiv" ).fadeOut(500, function() {
-        // fadeOut complete. Remove the loading div
+      $( "#loadingDiv" ).slideUp(500, function() {
+        // fadeOut complete.  Lo sfondo scorre verso l alto
         $( "#loadingDiv" ).remove(); //makes page more lightweight
       });
     }
 
 
-    ////////////
-    ////////////
-    ////////////
-    ////////////
-    ////////////
-    ////////////
-    ////////////
 
+
+    // burger menu DA IMPLEMENTARE
     $(".ms_bars").click(function() {
       alert("click");
     });
 
 
+
+
+    // DROPDOWN EFFETTI
 
     $(".with-dropdown").mouseenter(
       function(){
@@ -66,6 +66,15 @@ $(document).ready (
 
             }
           })
+
+
+
+
+
+
+
+          //  CAROSELLO
+
           // cliccando sul tasto freccia destra genero un evento
 
           // slider img successiva
@@ -92,9 +101,6 @@ $(document).ready (
             });
 
             //funzioni
-
-            //ho bisogno di una funzione che, cliccando sulla freccia dx, mi permetta di passare dall'immagine corrente a quella successiva
-            // questa stessa funzione deve evidenziare il cerchietto dell'immagine che è visibile in quel momento.
 
 
             // #funzione1

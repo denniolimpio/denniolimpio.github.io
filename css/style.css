@@ -8,8 +8,9 @@
             height: 10em;
         }
         .loader {
-          position: relative;
-          top: 500px;
+            top: 300px;
+            right: 0;
+            margin-top: 500px auto;
             font-size: 10px;
             height: 1px;
             background-color: red;
@@ -72,8 +73,8 @@
             background-color: black;
             background-image: url(../img/lett2.png);
             background-repeat: no-repeat;
-            background-position: 280px;
-            background-size: 270px;
+            background-position: center;
+            background-size: 250px;
             z-index: 6;
         }
 /*
@@ -573,10 +574,21 @@ video {
 @media (max-width: 575.98px) { ... }
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767.98px) {
+@media (min-width: 476px) and (max-width: 767.98px) {
+
+  .loader {
+      position: absolute;
+      top: 700px;
+    }
 }
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
+
+  .loader {
+      position: absolute;
+      top:550px;
+
+    }
 
   p {
     padding: 130px 0;
@@ -600,6 +612,12 @@ video {
     padding: 150px 0;
   }
 
+  .loader {
+      position: absolute;
+      top: 400px;
+
+    }
+
 
 
 
@@ -620,7 +638,7 @@ video {
 @media (min-width: 1200px) {
 
   .bg_pizza img  {
-    width: 800px;
+    width: 600px;
     top: -60px;
 
   }
@@ -641,7 +659,7 @@ video {
   }
 
   .loader {
-      margin: 550px auto;
+      margin: 50px auto;
 
   }
 }

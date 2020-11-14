@@ -11,7 +11,7 @@
   height: 45px;
   position: relative;
   top: 35px;
-  left: 0px;
+  left: 100px;
   margin: 50px auto;
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
@@ -612,7 +612,7 @@ a:hover {
 .burger .with-dropdown .dropdown {
   position: absolute;
       top: -2px;
-      left: -466px;
+      left: -399px;
 }
 .burger .with-dropdown .dropdown li {
 
@@ -622,6 +622,7 @@ a:hover {
 }
 .burger .with-dropdown .dropdown li a {
   color: white;
+  font-size: 30px;
 padding-left: 100px;
 text-align: center;
 }
@@ -667,10 +668,10 @@ text-align: center;
   left: 0;
   float: none;
 }
-.burger a {
+.burger  a {
   color: white;
-  padding: 20px 167px;
-  font-size: 22px;
+  padding: 40px 50px;
+  font-size: 50px;
 }
 
 /* media query */

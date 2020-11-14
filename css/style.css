@@ -333,51 +333,40 @@ h4:after {
 
 /* - - - - -  - section SLIDER */
 .slider-wrapper {
-  width: 900px;
-  height: 40rem;
-  padding: 0;
+  margin: 150px 0;
   position: relative;
-  overflow: hidden;
-  border-radius: 0.375rem;
+  margin: auto;
+  width: 100%;
+  height: 80%;
 }
 .slider-wrapper .images {
   height: 100%;
   text-align: center;
-
 }
 .slider-wrapper .images img {
-  object-fit: cover;
   display: none;
-  width: 100%;
+  height: 100%;
   transform: rotateX(360deg);
   transition: 1s;
 
 }
 .slider-wrapper .images img.active {
   display: inline-block;
+  color: blue;
 
 }
 .prev, .next {
-  width: 2rem;
-  height: 2rem;
-  padding: 0.3125rem;
   position: absolute;
-  top: calc(50% - 1rem);
-  user-select: none;
-  font-size: 30px;
-  color: white;
-  border-radius: 50%;
-  transition: 0.6s ease;
-  z-index: 2;
+  color: #9c2626;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  font-size: 40px;
+  cursor: pointer;
 }
 .next {
   left: auto;
   right: 0;
-}
-.prev:hover, .next:hover {
-
-
-opacity: 0.9;
 }
 .nav {
   position: absolute;
@@ -605,7 +594,7 @@ a:hover {
 }
 
 .dropdown li:hover
-{
+   {
   background-color: white;
 }
 
@@ -627,8 +616,8 @@ a:hover {
 }
 .burger .with-dropdown .dropdown {
   position: absolute;
-  top: -2px;
-  left: -399px;
+      top: -2px;
+      left: -399px;
 }
 .burger .with-dropdown .dropdown li {
 
@@ -639,8 +628,8 @@ a:hover {
 .burger .with-dropdown .dropdown li a {
   color: white;
   font-size: 30px;
-  padding-left: 100px;
-  text-align: center;
+padding-left: 100px;
+text-align: center;
 }
 .burger .with-dropdown .dropdown li:hover  {
   background-color: white;
@@ -715,106 +704,106 @@ a:hover {
     top: 0;
   }
 }
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991.98px) {
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) and (max-width: 991.98px) {
 
-  /* generali */
+    /* generali */
 
-  p {
-    padding: 130px 0;
+    p {
+      padding: 130px 0;
+    }
+
+
+    /*  slider section */
+
+    .slider-wrapper .images img {
+      height: 550px;
+    }
+
   }
 
-
-  /*  slider section */
-
-  .slider-wrapper .images img {
-    height: 550px;
-  }
-
-}
-
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) and (max-width: 1199.98px) {
 
 
-  .ms_sub-nav {
-    background-color: black;
-    position: fixed;
-    height: 150px;
-    width: 100%;
-    z-index: 2;
-    top: 0;
-  }
+    .ms_sub-nav {
+      background-color: black;
+      position: fixed;
+      height: 150px;
+      width: 100%;
+      z-index: 2;
+      top: 0;
+    }
 
-  .logo {
-    height: 180px;
-  }
+    .logo {
+      height: 180px;
+    }
 
-  /* generali */
-  section {
-    padding: 150px 0;
-  }
+    /* generali */
+    section {
+      padding: 150px 0;
+    }
 
 
 
-  /*  slider section */
+    /*  slider section */
 
-  .slider-wrapper .images img {
-    height: 200px;
-  }
+    .slider-wrapper .images img {
+      height: 200px;
+    }
 
-
-}
-
-
-
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-
-  .ms_sub-nav {
-    background-color: black;
-    position: fixed;
-    height: 120px;
-    width: 100%;
-    z-index: 2;
-    top: 0;
-  }
-
-  .logo {
-    height: 180px;
-  }
-
-  /* classi generali */
-  .card {
-    margin-top: 90px;
-    right: 150px;
-  }
-
-  /* layout */
-
-  section {
-    padding: 150px 0;
-  }
-  .primary {
-    padding: 90px 0;
-  }
-
-  /* header sub */
-
-  .bg_pizza img  {
-    width: 800px;
-    top: -60px;
 
   }
 
 
-  /*  slider  */
-  .slider-wrapper .images img {
-    height: 550px;
-  }
-  /* animazione caricamento */
-  .loader {
-    margin: 550px auto;
 
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {
+
+    .ms_sub-nav {
+      background-color: black;
+      position: fixed;
+      height: 120px;
+      width: 100%;
+      z-index: 2;
+      top: 0;
+    }
+
+    .logo {
+      height: 180px;
+    }
+
+    /* classi generali */
+    .card {
+      margin-top: 90px;
+      right: 150px;
+    }
+
+    /* layout */
+
+    section {
+      padding: 150px 0;
+    }
+    .primary {
+      padding: 90px 0;
+    }
+
+    /* header sub */
+
+    .bg_pizza img  {
+      width: 800px;
+      top: -60px;
+
+    }
+
+
+    /*  slider  */
+    .slider-wrapper .images img {
+      height: 550px;
+    }
+    /* animazione caricamento */
+    .loader {
+      margin: 550px auto;
+
+    }
   }
-}

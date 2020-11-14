@@ -3,9 +3,32 @@
   margin: 0 auto;
   box-sizing: border-box;
 }
+.ms_widget {
+  opacity: 1px;
+  border-radius: 4px;
+  height: auto;
+  margin: 20px 0;
+}
 
+.ms_widget_title h4{
+  color: white;
+  font-size: 16px;
+}
 
+.ms_icon {
+  height: 110px;
+  width: 100%;
+  text-align: center;
+}
 
+.ms_icon img {
+  border-radius: 70%;
+  height: 100%;
+}
+
+#welcome {
+  height: 100vh;
+}
 #nav-icon1 {
   width: 60px;
   height: 45px;
@@ -124,7 +147,7 @@ p {
 
 section {
   padding: 150px 0;
-  height: 100vh;
+  height: auto;
 }
 
 .primary {
@@ -140,15 +163,7 @@ section {
 
 /* classi generali */
 
-.secondary .card h4{
-  color: black;
 
-}
-
-.secondary .card {
-  background-color: #9b2626;
-
-}
 .card {
   margin-top: 60px;
   /* height: 450px; */
@@ -178,20 +193,24 @@ section {
 
 .secondary h4:before,
 .secondary h4:after {
-  background-color: black;
+  background-color: white;
+  border-radius: 10px;
 
 }
+
+
 
 h4:before,
 h4:after {
   background-color: #9b2626;
   content: "";
   display: inline-block;
-  height: .5px;
-  border-radius: 10px;
+  height: 5px;
+  border-radius: 20px;
   position: relative;
   vertical-align: middle;
   width: 55px;
+
 }
 
 .title h4:before {

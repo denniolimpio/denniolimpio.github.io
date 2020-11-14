@@ -7,6 +7,12 @@ $(document).ready (
 
   function() {
 
+    $('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').click(function(){
+		$(this).toggleClass('open');
+    $('.burger').toggleClass('visibile');
+
+	});
+
     // SCHERMATA CARICAMENTO
 
     $('body').append('<div style="" id="loadingDiv"><div class="loader">Loading...</div></div>');
@@ -24,19 +30,9 @@ $(document).ready (
 
 
     // burger menu DA IMPLEMENTARE
-    $(".ms_bars").click(function() {
-
-      $('.burger').addClass('visibile');
 
 
-    });
 
-    $(".fa-times").click(function() {
-
-
-      $('.burger').removeClass('visibile');
-
-    });
 
 
     // DROPDOWN EFFETTI

@@ -4,39 +4,6 @@
   box-sizing: border-box;
 }
 
-.ms_widget {
-  opacity: 1px;
-  border-radius: 4px;
-  height: auto;
-  margin: 100px 0;
-}
-
-.ms_widget_title h4{
-  font-size: 16px;
-}
-
-
-
-.ms_widget p {
-  font-size: 35px;
-}
-
-.ms_icon {
-  height: 400px;
-  width: 100%;
-  text-align: center;
-}
-
-.ms_icon img {
-  border-radius: 20px;
-  height: 100%;
-  filter: grayscale();
-}
-
-#welcome {
-  height: 100vh;
-}
-
 /* fine reset */
 
 /*  generali */
@@ -65,9 +32,13 @@ footer ul li {
 
 }
 
-footer {
-  border-top: .5px solid white;
+hr {
+  height: 2px;
+  border-top: 1px solid white;
+  margin: 0 140px;
 }
+
+
 .marker {
   font-size: 30px;
   color: red;
@@ -98,6 +69,9 @@ p {
 }
 
 /* layout */
+#welcome {
+  height: 100vh;
+}
 
 .wrap {
   background-color: black;
@@ -149,10 +123,7 @@ section {
 
 }
 
-.ms_widget_title h4 {
-  font-size: 25px;
-  padding: 10px 0;
-}
+
 
 .text {
   margin-top: 50px;
@@ -160,7 +131,7 @@ section {
 .text p  {
   font-family: 'Quicksand', sans-serif;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 30px;
   padding: 5px 0;
   text-align: left;
 }
@@ -282,6 +253,37 @@ h4:before .circle ,h4:after .circle {
 /* - - - -  - - -  - - SECTION WELCOME */
 .welcome .card img {
   height: 100px;
+}
+
+/*-------------- section presentation */
+
+.ms_widget {
+  opacity: 1px;
+  border-radius: 4px;
+  height: auto;
+  margin: 100px 0;
+}
+
+.ms_widget_title h4{
+  font-size:40px;
+  padding: 10px 0;
+
+}
+
+
+
+
+
+.ms_icon {
+  height: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+.ms_icon img {
+  border-radius: 20px;
+  height: 100%;
+  filter: grayscale();
 }
 
 
@@ -414,6 +416,9 @@ footer h5 {
   padding: 5px 0;
 }
 
+footer {
+  margin: 40px 0;
+}
 /* fine footer */
 
 
@@ -844,6 +849,9 @@ text-align: center;
       height: 200px;
     }
 
+    .text p {
+      font-size: 25px;
+    }
 
   }
 
@@ -897,5 +905,9 @@ text-align: center;
     .loader {
       margin: 550px auto;
 
+    }
+
+    .text p {
+      font-size: 25px;
     }
   }

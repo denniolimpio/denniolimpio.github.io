@@ -552,7 +552,7 @@ footer h5 {
 
 
 /* animazione foto */
-.ms_icon:hover img {
+/* .ms_icon:hover img {
 	opacity: 1;
 	-webkit-animation: flash 1.5s;
 	animation: flash 3.5s;
@@ -572,7 +572,7 @@ footer h5 {
 	100% {
 		opacity: 1;
 	}
-}
+} */
 
 
 

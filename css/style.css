@@ -631,7 +631,17 @@ a:hover {
 
 
 /*  burger menu */
+.opacity {
+  display: none;
+  background-color: black;
+  opacity: .5;
 
+  position: absolute;
+  height: 100vh;
+  left: -13px;
+
+
+}
 
 .burger {
   display: none;
@@ -639,7 +649,7 @@ a:hover {
   top: 180px;
   right: -150px;
   height: 100vh;
-  width: 450px;
+  width: 523px;
   background-color: black;
   opacity: 0.5px;
 }
@@ -649,7 +659,7 @@ a:hover {
   left: -279px;
 }
 .burger .with-dropdown .dropdown.active a {
-  font-size: 14px;
+  font-size: 30px;
 }
 .burger .with-dropdown .dropdown li {
 
@@ -660,7 +670,7 @@ a:hover {
 .burger .with-dropdown .dropdown li a {
   color: white;
   font-size: 25px;
-padding-left: 100px;
+padding-left: 50px;
 text-align: center;
 }
 .burger .with-dropdown .dropdown li:hover  {

@@ -8,8 +8,10 @@ $(document).ready (
 
     $('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').click(function(){
       $(".burger").animate({width:'toggle'},350);
+      $(".opacity").animate({width:'toggle'},350);
 		$(this).toggleClass('open');
     $('.burger').toggleClass('visibile');
+    $('.opacity').toggleClass('visibile');
 
 	});
 

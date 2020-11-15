@@ -62,8 +62,6 @@ h5 {
 p {
   font-family: 'Quicksand', sans-serif;
   color: #fff ;
-  font-weight: 600;
-  font-size: 22px;
   padding: 10px 0;
   text-align: center;
 }
@@ -128,13 +126,7 @@ section {
 .text {
   margin-top: 50px;
 }
-.text p  {
-  font-family: 'Quicksand', sans-serif;
-  font-weight: 400;
-  font-size: 45px;
-  padding: 5px 0;
-  text-align: left;
-}
+
 
 
 
@@ -421,6 +413,14 @@ footer {
 }
 /* fine footer */
 
+
+ p  {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+  font-size: 45px;
+  padding: 5px 0;
+  text-align: left;
+}
 
 /* - -  -- - - -  - - -  -  - - - -  - - - - - */
 
@@ -849,9 +849,6 @@ text-align: center;
       height: 200px;
     }
 
-    .text p {
-      font-size: 25px;
-    }
 
   }
 
@@ -907,7 +904,5 @@ text-align: center;
 
     }
 
-    .text p {
-      font-size: 25px;
-    }
+
   }

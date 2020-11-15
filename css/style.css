@@ -3,6 +3,23 @@
   margin: 0 auto;
   box-sizing: border-box;
 }
+.copy {
+  height: auto;
+  color: white;
+  text-align: center;
+}
+
+.copy span {
+  font-size: 10px;
+}
+
+.cop
+.social ul li {
+  font-size: 35px;
+}
+.social {
+  text-align: center;
+}
 .ms_widget {
   opacity: 1px;
   border-radius: 4px;
@@ -15,12 +32,18 @@
   font-size: 16px;
 }
 
+.ms_widget p {
+  font-size: 35px;
+}
+
 .ms_icon {
-  height: 110px;
+  height: 150px;
   width: 100%;
   text-align: center;
 }
-
+.pizzas {
+  height: 200px;
+}
 .ms_icon img {
   border-radius: 70%;
   height: 100%;
@@ -120,7 +143,19 @@ a {
   padding: 0 10px;
   text-transform: uppercase;
 }
+footer ul li {
+  text-decoration: none;
+  padding: 3px 0;
 
+}
+.marker {
+  font-size: 30px;
+  color: white;
+}
+footer ul li a {
+  font-size: 12px;
+  color: white
+}
 h4 {
   color: #9b2626;
 }
@@ -129,6 +164,9 @@ h5, h4 {
   text-transform: uppercase;
   text-align: center;
   padding: 90px 0;
+}
+h5 {
+  color: white;
 }
 p {
   font-family: 'Quicksand', sans-serif;
@@ -191,17 +229,23 @@ section {
 
 }
 
-.secondary h4:before,
-.secondary h4:after {
-  background-color: white;
-  border-radius: 10px;
+.ms_widget_title h4 {
+  font-size: 25px;
+  padding: 10px 0;
+}
 
+.text {
+  margin-top: 50px;
+}
+.text p  {
+font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  padding: 5px 0;
 }
 
 
 
-h4:before,
-h4:after {
+.welcome h4:before,.welcome h4:after {
   background-color: #9b2626;
   content: "";
   display: inline-block;
@@ -635,8 +679,11 @@ a:hover {
 }
 .burger .with-dropdown .dropdown {
   position: absolute;
-      top: -2px;
-      left: -399px;
+  top: -2px;
+  left: -279px;
+}
+.burger .with-dropdown .dropdown.active a {
+  font-size: 14px;
 }
 .burger .with-dropdown .dropdown li {
 
@@ -646,7 +693,7 @@ a:hover {
 }
 .burger .with-dropdown .dropdown li a {
   color: white;
-  font-size: 30px;
+  font-size: 25px;
 padding-left: 100px;
 text-align: center;
 }
@@ -699,7 +746,7 @@ text-align: center;
 .burger  a {
   color: white;
   padding: 40px 50px;
-  font-size: 50px;
+  font-size: 30px;
 }
 
 

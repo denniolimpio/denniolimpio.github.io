@@ -35,7 +35,7 @@ footer ul li {
 hr {
   height: 2px;
   border-top: 1px solid white;
-  margin: 0 140px;
+  margin: 100px 140px;
 }
 
 
@@ -410,11 +410,56 @@ footer h5 {
 footer {
   padding: 40px 0;
 }
+
+
+
+.ms_downlaod h3 {
+  text-align: center;
+
+}
+
+.ms_downlaod i {
+  position: absolute;
+  left: 50%;
+  font-size: 100px;
+}
+
+.floating {
+    position: fixed;
+    z-index: 4;
+    right: 70px;
+    bottom: 150px;
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+    z-index:2
+}
+
+.floating .down {
+  font-size: 120px;
+  color: #9b2626;
+
+}
+.floating span {
+  color: white;
+font-size: 35px;
+position: absolute;
+top: 120px;
+right: 30px;
+}
+
+@keyframes floating {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 35px); }
+    to   { transform: translate(0, -0px); }
+}
 /* fine footer */
 
 
  p  {
-  font-family: 'Quicksand', sans-serif;
   font-weight: 400;
   font-size: 45px;
   padding: 5px 0;
@@ -559,21 +604,8 @@ footer {
 
 
 /* Monogramma  */
-/* .fixed-mono {
-position: fixed;
-z-index: 4;
-}
 
-.fixed-mono  {
-height:130px;
-bottom: 0;
-right: 55px;
-border: 2px solid pink;
 
-}
-.fixed-mono span {
-color: white;
-} */
 
 /* fine monogramma */
 

@@ -17,6 +17,8 @@ h1 {
 img {
   height: 100%;
   width: auto;
+  image-orientation: from-image;
+
 }
 
 a {

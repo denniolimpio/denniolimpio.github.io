@@ -111,15 +111,8 @@ section {
   color: white;
 }
 
-.secondary .card h4{
-  color: black;
 
-}
 
-.secondary .card {
-  background-color: #9b2626;
-
-}
 
 
 
@@ -141,7 +134,7 @@ h4:before,h4:after {
   width: 55px;
 
 }
-h4:before .circle ,h4:after .circle {
+h4:before ,h4:after{
   background-color: #9b2626;
   content: "";
   display: inline-block;
@@ -400,13 +393,14 @@ h4:before .circle ,h4:after .circle {
 }
 
 
-.social ul li {
-  font-size: 35px;
+.social ul li a {
+  font-size: 65px;
 }
 .social {
   margin-top: 20px;
   text-align: center;
 }
+
 
 footer h5 {
   font-size: 21px;
@@ -815,6 +809,17 @@ text-align: center;
     z-index: 2;
     top: 0;
   }
+
+  .ms_icon {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    height: auto;
+    margin-left: -50vw;
+  }
+  .ms_icon img {
+    width: 100%;
+  }
 }
   /* Medium devices (tablets, 768px and up) */
   @media (min-width: 768px) and (max-width: 991.98px) {
@@ -832,6 +837,16 @@ text-align: center;
       height: 550px;
     }
 
+    .ms_icon {
+      width: 100vw;
+      position: relative;
+      left: 50%;
+      height: auto;
+      margin-left: -50vw;
+    }
+    .ms_icon img {
+      width: 100%;
+    }
   }
 
   /* Large devices (desktops, 992px and up) */

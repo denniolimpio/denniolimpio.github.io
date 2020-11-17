@@ -1,3 +1,3 @@
 # denniolimpio.github.io
 
-![Screenshot](img/progetto_pizz.jpeg)
+![Screenshot](progetto_pizz.jpeg)

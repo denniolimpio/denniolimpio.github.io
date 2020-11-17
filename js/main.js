@@ -76,10 +76,6 @@ $(document).ready (
 
 
 
-
-
-
-
           //  CAROSELLO
 
           // cliccando sul tasto freccia destra genero un evento

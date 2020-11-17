@@ -223,7 +223,8 @@ h4:before ,h4:after{
   top: 0;
 }
 .ms_sub-nav ul {
-  float: right;
+
+: right;
 }
 
 .bg_pizza img  {
@@ -262,12 +263,11 @@ h4:before ,h4:after{
 
 
 .ms_icon {
-  height: 400px;
-  width: 100%;
-  text-align: center;
 }
 
 .ms_icon img {
+  width: 100%;
+  height: auto;
   border-radius: 20px;
   height: 100%;
   filter: grayscale();
@@ -886,7 +886,7 @@ text-align: center;
   /* Large devices (desktops, 992px and up) */
   @media (min-width: 992px) and (max-width: 1199.98px) {
     p {
-     font-size: 25px;
+     font-size: 18px;
     }
 
 
@@ -926,7 +926,7 @@ text-align: center;
   /* Extra large devices (large desktops, 1200px and up) */
   @media (min-width: 1200px) {
     p {
-     font-size: 25px;
+     font-size: 18px;
     }
 
     .ms_sub-nav {
